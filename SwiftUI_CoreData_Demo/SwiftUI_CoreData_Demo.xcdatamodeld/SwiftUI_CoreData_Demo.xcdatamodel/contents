@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Account" representedClassName="Account" syncable="YES" codeGenerationType="class">
+        <attribute name="accountNumber" optional="YES" attributeType="String"/>
+        <attribute name="salary" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="employee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employee" inverseName="account" inverseEntity="Employee"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="designation" optional="YES" attributeType="String"/>
+        <attribute name="empID" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="joiningDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <relationship name="account" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="employee" inverseEntity="Account"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="-10670.48217773438" positionY="-6079.559005737305" width="128" height="88"/>
+        <element name="Employee" positionX="-10673.00408935547" positionY="-6481.845413208008" width="128" height="119"/>
+    </elements>
+</model>

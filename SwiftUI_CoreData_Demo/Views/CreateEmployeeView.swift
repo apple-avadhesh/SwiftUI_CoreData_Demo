@@ -70,6 +70,7 @@ struct CreateEmployeeView: View {
             }
         }
         btnCreateEmployee
+        Spacer(minLength: 20.0)
 
     }
     

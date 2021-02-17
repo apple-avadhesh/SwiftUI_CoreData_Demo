@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9663E19025CFA4100081A629 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663E18F25CFA4100081A629 /* TestView.swift */; };
 		9674E30C25CA8E8500AAE24B /* SwiftUI_CoreData_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674E30B25CA8E8500AAE24B /* SwiftUI_CoreData_DemoApp.swift */; };
 		9674E30E25CA8E8500AAE24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674E30D25CA8E8500AAE24B /* ContentView.swift */; };
 		9674E31025CA8E8600AAE24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9674E30F25CA8E8600AAE24B /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9663E18F25CFA4100081A629 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		9674E30825CA8E8500AAE24B /* SwiftUI_CoreData_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreData_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9674E30B25CA8E8500AAE24B /* SwiftUI_CoreData_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreData_DemoApp.swift; sourceTree = "<group>"; };
 		9674E30D25CA8E8500AAE24B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				9674E33A25CAEF2300AAE24B /* HelperExtensions.swift */,
 				9674E32325CAB47100AAE24B /* CoreData+Extensions.swift */,
+				9663E18F25CFA4100081A629 /* TestView.swift */,
 				9674E33E25CAF28B00AAE24B /* MockEmployeePreviewData.swift */,
 			);
 			path = Helpers;
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9663E19025CFA4100081A629 /* TestView.swift in Sources */,
 				9674E33F25CAF28B00AAE24B /* MockEmployeePreviewData.swift in Sources */,
 				9674E36525CC12AF00AAE24B /* CreateEmployeeView.swift in Sources */,
 				9674E32725CAC41100AAE24B /* CoreDataManager.swift in Sources */,

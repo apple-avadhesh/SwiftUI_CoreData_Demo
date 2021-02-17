@@ -15,7 +15,7 @@ struct EmployeeCell: View {
            ZStack {
                Color.white
                    .cornerRadius(12)
-            ShadowView(emp: emp)
+            BoxView(emp: emp)
            }
            .fixedSize(horizontal: false, vertical: true)
            .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2)
@@ -28,7 +28,7 @@ struct EmployeeCell_Previews: PreviewProvider {
     }
 }
 
-struct ShadowView: View {
+struct BoxView: View {
     @ObservedObject var emp: Employee
 
     var body: some View {
